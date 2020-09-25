@@ -1,0 +1,16 @@
+{
+  "name": "next-issue-17356",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "export": "rm -rf ./build/ && next build && next export -o ./build/"
+  },
+  "devDependencies": {
+    "serve": "11.3.2"
+  },
+  "dependencies": {
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
